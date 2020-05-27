@@ -38,7 +38,7 @@ public class Ttttttttttttttt extends Application {
 btn.setLayoutX(50);
 btn.setLayoutY(100);
 
-Scene scene = new Scene(root, 650, 350);
+Scene scene = new Scene(root, 700, 400);
         
         
         
