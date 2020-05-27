@@ -10,6 +10,7 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
@@ -31,10 +32,15 @@ public class Ttttttttttttttt extends Application {
             }
         });
         
-        StackPane root = new StackPane();
+        Pane root = new Pane();
         root.getChildren().add(btn);
         
-        Scene scene = new Scene(root, 300, 250);
+btn.setLayoutX(50);
+btn.setLayoutY(100);
+
+Scene scene = new Scene(root, 650, 350);
+        
+        
         
         primaryStage.setTitle("Hello World!");
         primaryStage.setScene(scene);
